@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "dashifen/debugging",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dashifen/debugging.git",
-                "reference": "2443dbf994351e94ffa36ea992b1a5b8b87250e8"
+                "reference": "6898e2ab451b4e6d8e3825d65223181c8351eaa2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dashifen/debugging/zipball/2443dbf994351e94ffa36ea992b1a5b8b87250e8",
-                "reference": "2443dbf994351e94ffa36ea992b1a5b8b87250e8",
+                "url": "https://api.github.com/repos/dashifen/debugging/zipball/6898e2ab451b4e6d8e3825d65223181c8351eaa2",
+                "reference": "6898e2ab451b4e6d8e3825d65223181c8351eaa2",
                 "shasum": ""
             },
             "type": "library",
@@ -38,7 +38,11 @@
                 }
             ],
             "description": "A PHP Trait that defines static methods used for on-screen debugging.",
-            "time": "2020-08-02T14:27:05+00:00"
+            "support": {
+                "issues": "https://github.com/dashifen/debugging/issues",
+                "source": "https://github.com/dashifen/debugging/tree/1.0.1"
+            },
+            "time": "2020-12-09T19:27:09+00:00"
         }
     ],
     "packages-dev": [],
@@ -49,5 +53,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
