@@ -6,7 +6,9 @@ use Dashifen\Debugging\DebuggingTrait;
 
 trait WPDebuggingTrait
 {
-  use DebuggingTrait;
+  use DebuggingTrait {
+    isDebug as isDebuggingTraitDebug;
+  }
   
   /**
    * isDebug
@@ -18,7 +20,7 @@ trait WPDebuggingTrait
    */
   public static function isDebug(): bool
   {
-    return DebuggingTrait::isDebug() || (defined('WP_DEBUG') && WP_DEBUG);
+    return self::isDebuggingTraitDebug() || (defined('WP_DEBUG') && WP_DEBUG);
   }
   
   /**
